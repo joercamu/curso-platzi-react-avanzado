@@ -1,0 +1,50 @@
+
+npm install webpack webpack-cli --save-dev
+// empaqueta un archivo especifico
+node_modules/.bin/webpack ./src/index.js
+
+// empaqueta inteligentement
+node_modules/.bin/webpack
+
+//ejecuta el compilado
+node dist/main.js
+
+
+//lib desarrollo para html
+npm i html-webpack-plugin --save-dev
+
+//lib server para webpack
+npm i webpack-dev-server --save-dev
+
+//iniciar servidor
+node_modules/.bin/webpack serve
+
+//instalar dependencia react y react-dom
+
+npm i react react-dom
+
+//babel -> transpilador html
+npm i @babel/core @babel/preset-env babel-loader @babel/preset-react --save-dev
+
+//instalar linter
+npm i standard --save-dev
+stardard
+//reparar
+standard --fix 
+
+// deploy
+//'now' ahora es 'vercel'
+
+npm i -g vercel
+
+//style
+
+npm i styled-components
+
+// icons
+
+npm i react-icons
+
+// logos
+
+// ir a maketext.io
